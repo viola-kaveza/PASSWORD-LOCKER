@@ -38,6 +38,10 @@ Clone or download and unzip the repository from github https://github.com/andrew
 
 5.Run ./run.py to launch the program.
 
+# Technologies used
+Python
+
+Git
 
 
 
