@@ -49,6 +49,11 @@ Email: kavezaviola@gmail.com
 
 Tel:+254796073190
 
+# Licence
+
+[MIT License] violakaveza.
+
+
 
 
 
