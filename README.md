@@ -28,7 +28,7 @@ Behavior Input Output on load loging/signup Access to the account on login show 
 
 # Setup installation
 
-Clone or download and unzip the repository from github https://github.com/andrew1440/Password-locker.git
+Clone or download and unzip the repository from github https://github.com/viola-kaveza/Password-locker.git
 
 2.You can use this command (git clone https://github.com/andrew1440/Password-locker.git ) to clone the project to your machine if you have git .
 
