@@ -30,7 +30,7 @@ Behavior Input Output on load loging/signup Access to the account on login show 
 
 Clone or download and unzip the repository from github https://github.com/viola-kaveza/Password-locker.git
 
-2.You can use this command (git clone https://github.com/andrew1440/Password-locker.git ) to clone the project to your machine if you have git .
+2.You can use this command (git clone https://github.com/viola-kaveza/Password-locker.git ) to clone the project to your machine if you have git .
 
 3.cd into the project folder and open in text editor either code. or atom.
 
