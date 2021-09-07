@@ -28,7 +28,7 @@ class TestUser(unittest.TestCase):
     def test_save_multiple_user(self):
        
         self.new_user.save_user()
-        test_user = User("Facebook","Andy","Andrew Msee","drew") 
+        test_user = User("Facebook","Mam","Viola Kaveza","mamu") 
         test_user.save_user()
         self.assertEqual(len(User.user_list),2)
     
@@ -39,7 +39,7 @@ class TestUser(unittest.TestCase):
     def test_delete_user(self):
         
          self.new_user.save_user()
-         test_user = User("Facebook","Andy","Andrew Msee","drew") 
+         test_user = User("Facebook","Mam","Viola Kaveza","mamu") 
          test_user.save_user()
 
          self.new_user.delete_user()
@@ -48,19 +48,19 @@ class TestUser(unittest.TestCase):
     def test_save_user_by_username(self):    
 
         self.new_user.save_user()
-        test_user = User("Facebook","Andy")
+        test_user = User("Facebook","Mam")
         test_user.save_user()
 
-        found_user = User.find_by_user_name("Andrea Msee")
+        found_user = User.find_by_user_name("Viola Kaveza")
 
         self.assertEqual(found_user.user_name,test_user.user_name)
     def test_user_exists(self):
          
         self.new_user.save_user()
-        test_user = User("Andrea msee") 
+        test_user = User("Viola Kaveza") 
         test_user.save_user()
 
-        user_exists = User.user_exist("Andrea Msee")
+        user_exists = User.user_exist("Viola Kaveza")
 
         self.assertTrue(user_exists)
     def test_display_all_users(self):

@@ -5,16 +5,16 @@ from password import Credential
 class TestCredentials(unittest.TestCase):
     def SetUp(self):
 
-        self.new_credential = Credential("Odongo","Andrew","37939509","drewodongo470@gmail.com") # create account object
+        self.new_credential = Credential("Kaveza","Viola","Access","viola.kaveza@student.moringaschool.com") # create account object
 
 
     def test_init(self):
 
 
-        self.assertEqual(self.new_credential.user_name,"Odongo")
-        self.assertEqual(self.new_credential.usr,"Andrew")
-        self.assertEqual(self.new_credential.password,"37939509")
-        self.assertEqual(self.new_credential.email,"drewodongo470@gmail.com")
+        self.assertEqual(self.new_credential.user_name,"Kaveza")
+        self.assertEqual(self.new_credential.usr,"Viola")
+        self.assertEqual(self.new_credential.password,"Access")
+        self.assertEqual(self.new_credential.email,"viola.kaveza@student.moringaschool.com")
 
     def test_save_credential(self):
 
@@ -27,7 +27,7 @@ class TestCredentials(unittest.TestCase):
     def test_delete_credential(self):
 
         self.new_credential.save_credential()
-        test_credential = Credential.credential("Test","user","37939509","test@user.com")
+        test_credential = Credential.credential("Test","user","Access","test@user.com")
         test_credential.save_credential()
 
         self.new_credential.delete_credential()
@@ -37,7 +37,7 @@ class TestCredentials(unittest.TestCase):
                     
 
         self.new_credential.test_save_credential()
-        test_credential =Credential("Test","user","0740478651","test@user.com")
+        test_credential =Credential("Test","user","0772308268","test@user.com")
         test_credential.save_credential()
 
         found_credential = Credential.find_name_by_name("Test")
@@ -53,7 +53,7 @@ class TestCredentials(unittest.TestCase):
         test_Credential("Test","user","0740478651","test@user.com")
         test.credential.save_credential()
 
-        credential_exists = Credential.credential_exist("0740478651")
+        credential_exists = Credential.credential_exist("0772308268")
         self.assertTrue(credential_exists)
 
 
