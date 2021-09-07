@@ -43,6 +43,13 @@ Python
 
 Git
 
+# Contacts
+
+Email: kavezaviola@gmail.com
+
+Tel:+254796073190
+
+
 
 
 
