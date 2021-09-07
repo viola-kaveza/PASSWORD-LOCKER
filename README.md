@@ -1,7 +1,7 @@
 # PASSWORD-LOCKER
 
 # Author
-Viola Kaveza
+Viola Kavezah
 
 # Description
 This project enables clients to store and retrieve their credentials upon log-in and create new credentials/passwords and even generate random passwords for Create account for new user
